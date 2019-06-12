@@ -1,0 +1,8 @@
+backend:
+  image: chsldz/tenniskoenig
+  ports:
+    - "8080:8080"
+frontend:
+  image: tf98/tenniskoenig_frontend
+  ports:
+    - "80:4200"
