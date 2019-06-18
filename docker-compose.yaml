@@ -3,6 +3,6 @@ backend:
   ports:
     - "8080:8080"
 frontend:
-  image: tf98/tenniskoenig_frontend
+  image: tf98/tenniskonig_frontend:v1
   ports:
     - "80:4200"
